@@ -41,7 +41,6 @@ export const AddTodo = ({ addTodo }) => {
 						onChange={(e) => {
 							setDesc(e.target.value);
 						}}
-						console.log()
 						className="form-control"
 						id="desc"
 					/>
